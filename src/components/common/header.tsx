@@ -37,12 +37,18 @@ export function Header({ className }: SidebarProps) {
   ]
 
   const getLogo = () => (
-    <Link href="/" className="pointer flex items-center">
-      <img src="/logo.svg" className="mr-1" />
-      <Typography className="!text-base font-small mr-12">
-        East Bay LXD
-      </Typography>
-    </Link>
+    <div>
+      <img src="/logo.svg" className="mr-1"/>
+        <Link
+          href="/"
+          className="pointer block w-fit"
+          target="_blank">
+        <Typography className="!text-base">
+          East Bay LXD
+        </Typography>
+      </Link>
+    </div>
+
   )
 
   const getAuthButtons = () => (
@@ -103,39 +109,37 @@ export function Header({ className }: SidebarProps) {
     >
       <div className="w-full max-w-[1280px] md:px-8 px-4">
         {/* Desktop */}
-        <div className="flex items-center gap-x-8 w-full">
-          <div className="md:flex-0 min-w-fit flex-1">
-            {getLogo()}
+        <div className="flex items-center gap-x-4 w-64">
+          {getLogo()}
+        </div>
+        <div className="hidden md:flex flex items-center w-full">
+          <div className="flex items-center gap-x-8 flex-1">
+            {getHeaderItems()}
           </div>
-          <div className="hidden md:flex flex items-center w-full">
-            <div className="flex items-center gap-x-8 flex-1">
-              {getHeaderItems()}
-            </div>
             {getAuthButtons()}
-          </div>
+        </div>
           {/* Mobile */}
-          <div className="md:hidden flex gap-x-4 items-center">
-            {getAuthButtons()}
-            <Drawer direction="right">
-              <DrawerTrigger asChild>
-                <MenuIcon />
-              </DrawerTrigger>
-              <DrawerContent className="h-screen top-0 right-0 left-auto mt-0 w-64 rounded-none">
-                <div className="mx-auto w-full p-5">
-                  <DrawerHeader>
-                    <DrawerClose asChild>
-                      <div className="w-full flex items-end justify-end">
-                        <X />
-                      </div>
-                    </DrawerClose>
-                  </DrawerHeader>
-                  <div className="p-4 pb-0 space-y-4">
-                    {getHeaderItems()}
-                  </div>
+        <div className="md:hidden flex gap-x-4 items-center">
+          {getAuthButtons()}
+          <Drawer direction="right">
+            <DrawerTrigger asChild>
+              <MenuIcon />
+            </DrawerTrigger>
+            <DrawerContent className="h-screen top-0 right-0 left-auto mt-0 w-64 rounded-none">
+              <div className="mx-auto w-full p-5">
+                <DrawerHeader>
+                  <DrawerClose asChild>
+                    <div className="w-full flex items-end justify-end">
+                      <X />
+                    </div>
+                  </DrawerClose>
+                </DrawerHeader>
+                <div className="p-4 pb-0 space-y-4">
+                  {getHeaderItems()}
                 </div>
-              </DrawerContent>
-            </Drawer>
-          </div>
+              </div>
+            </DrawerContent>
+          </Drawer>
         </div>
       </div>
     </div>
