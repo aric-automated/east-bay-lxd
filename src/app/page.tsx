@@ -29,8 +29,8 @@ export default function Home() {
         <Image
           width={1024}
           height={632}
-          alt="East Bay Learning Design logo"
-          src="/logo.png"
+          alt="Maple Syrup Production eLearning Mockup"
+          src="/maple-tutorial.png"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
