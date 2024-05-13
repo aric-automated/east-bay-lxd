@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     title:
       'East Bay Learning Design',
     description:
-    'Simplify and scale with eLearning solutions'
-    //images: ['https://i.imgur.com/MPMcyPP.png']
+    'Simplify and scale with eLearning solutions',
+    images: ['https://i.imgur.com/MPMcyPP.png']
   }
 }
 
