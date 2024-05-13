@@ -20,8 +20,13 @@ export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
     {
-      href: 'https://map.sistilli.dev/public/coding/SaaS+Boilerplate',
-      title: 'Book a demo',
+      href: 'https://google.com',
+      title: 'Our work',
+      openInNewTab: true
+    },
+    {
+      href: 'https://google.com',
+      title: 'Get in touch',
       openInNewTab: true
     }
     // { href: '#pricing', title: 'Features' },
@@ -35,13 +40,13 @@ export function Header({ className }: SidebarProps) {
     <Link href="/" className="pointer flex items-center">
       <img src="/logo.svg" className="mr-3" />
       <Typography className="!text-white !text-base font-medium ">
-        Pandem
+        East Bay Learning Design
       </Typography>
     </Link>
   )
 
   const getAuthButtons = () => (
-    <div className="flex gap-3 items-center">
+    /*<div className="flex gap-3 items-center">
       <Link
         href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
         target="_blank"
@@ -58,7 +63,7 @@ export function Header({ className }: SidebarProps) {
           </Typography>
         </Button>
       </Link>
-    </div>
+    </div>*/
   )
 
   const getHeaderItems = () => {
