@@ -37,13 +37,13 @@ export function Header({ className }: SidebarProps) {
   ]
 
   const getLogo = () => (
-    <div>
+    <div className="flex items-center gap-x-4 w-64">
       <img src="/logo.svg" className="mr-1"/>
         <Link
           href="/"
           className="pointer block w-fit"
           target="_blank">
-        <Typography className="!text-base">
+        <Typography>
           East Bay LXD
         </Typography>
       </Link>
@@ -109,7 +109,7 @@ export function Header({ className }: SidebarProps) {
     >
       <div className="w-full max-w-[1280px] md:px-8 px-4">
         {/* Desktop */}
-        <div className="flex items-center gap-x-4 w-64">
+        <div className="hidden md:flex items-center w-full">
           {getLogo()}
         </div>
         <div className="hidden md:flex flex items-center w-full">
