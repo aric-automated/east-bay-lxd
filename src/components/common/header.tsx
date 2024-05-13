@@ -46,7 +46,7 @@ export function Header({ className }: SidebarProps) {
   )
 
   const getAuthButtons = () => (
-    /*<div className="flex gap-3 items-center">
+    <div className="flex gap-3 items-center">
       <Link
         href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
         target="_blank"
@@ -63,7 +63,7 @@ export function Header({ className }: SidebarProps) {
           </Typography>
         </Button>
       </Link>
-    </div>*/
+    </div>
   )
 
   const getHeaderItems = () => {
