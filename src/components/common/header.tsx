@@ -38,8 +38,8 @@ export function Header({ className }: SidebarProps) {
 
   const getLogo = () => (
     <Link href="/" className="pointer flex items-center">
-      <img src="/logo.svg" className="mr-12" />
-      <Typography className="!text-base font-small ">
+      <img src="/logo.svg" className="mr-1" />
+      <Typography className="!text-base font-small mr-12">
         East Bay LXD
       </Typography>
     </Link>
