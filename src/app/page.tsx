@@ -13,7 +13,7 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Information you need during on-call emergencies
+          Ayyyyyyyy you need during on-call emergencies
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
           Quickly link new on-call tickets to similar past
