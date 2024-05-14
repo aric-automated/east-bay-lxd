@@ -111,35 +111,35 @@ export function Header({ className }: SidebarProps) {
         {/* Desktop */}
         <div className="h-10 flex items-center gap-x-8">
           {getLogo()}
-          <div className="hidden flex items-center gap-x-8 w-1/3">
+          <div className="hidden md:flex items-center gap-x-8 w-1/3">
             {getHeaderItems()}
           </div>
-          <div className="hidden flex items-center w-1/3">
+          <div className="hidden md:flex items-center w-1/3">
             {getAuthButtons()}
           </div>
-        </div>
-          {/* Mobile */}
-        <div className="md:hidden flex gap-x-4 items-center">
-          {getAuthButtons()}
-          <Drawer direction="right">
-            <DrawerTrigger asChild>
-              <MenuIcon />
-            </DrawerTrigger>
-            <DrawerContent className="h-screen top-0 right-0 left-auto mt-0 w-64 rounded-none">
-              <div className="mx-auto w-full p-5">
-                <DrawerHeader>
-                  <DrawerClose asChild>
-                    <div className="w-full flex items-end justify-end">
-                      <X />
-                    </div>
-                  </DrawerClose>
-                </DrawerHeader>
-                <div className="p-4 pb-0 space-y-4">
-                  {getHeaderItems()}
+            {/* Mobile */}
+          <div className="md:hidden items-center w-1/3">
+            {getAuthButtons()}
+            <Drawer direction="right">
+              <DrawerTrigger asChild>
+                <MenuIcon />
+              </DrawerTrigger>
+              <DrawerContent className="h-screen top-0 right-0 left-auto mt-0 w-64 rounded-none">
+                <div className="mx-auto w-full p-5">
+                  <DrawerHeader>
+                    <DrawerClose asChild>
+                      <div className="w-full flex items-end justify-end">
+                        <X />
+                      </div>
+                    </DrawerClose>
+                  </DrawerHeader>
+                  <div className="p-4 pb-0 space-y-4">
+                    {getHeaderItems()}
+                  </div>
                 </div>
-              </div>
-            </DrawerContent>
-          </Drawer>
+              </DrawerContent>
+            </Drawer>
+          </div>
         </div>
       </div>
     </div>
