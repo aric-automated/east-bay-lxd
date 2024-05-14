@@ -111,10 +111,10 @@ export function Header({ className }: SidebarProps) {
         {/* Desktop */}
         <div className="h-10 flex items-center gap-x-8">
           {getLogo()}
-          <div className="flex items-center gap-x-8 w-1/3">
+          <div className="hidden flex items-center gap-x-8 w-1/3">
             {getHeaderItems()}
           </div>
-          <div className="flex items-center w-1/3">
+          <div className="hidden flex items-center w-1/3">
             {getAuthButtons()}
           </div>
         </div>
