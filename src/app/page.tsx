@@ -16,11 +16,11 @@ export default function Home() {
           East Bay Learning Design
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Simplify your training and grow your business with our custom eLearning solutions.
+          Simplify your training and grow your business with our custom learning solutions.
         </Typography>
         <Image
-          width={1024}
-          height={632}
+          width={512}
+          height={512}
           alt="Maple Syrup Production eLearning Mockup"
           src="/maple-tutorial.png"
         />
