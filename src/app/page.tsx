@@ -16,16 +16,8 @@ export default function Home() {
           East Bay Learning Design
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Simplify and scale with eLearning solutions
+          Simplify your training and grow your business with our custom eLearning solutions.
         </Typography>
-        <Link
-          href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
-          target="_blank"
-        >
-          <Button size="tiny" variant="ghost">
-            {`Get Started`}
-          </Button>
-        </Link>
         <Image
           width={1024}
           height={632}
