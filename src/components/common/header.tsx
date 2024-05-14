@@ -102,12 +102,12 @@ export function Header({ className }: SidebarProps) {
   return (
     <div
       className={cn(
-        `flex md:h-12 h-14 items-center justify-center w-full
+        `max-h-16 flex md:h-12 h-14 items-center justify-center w-full
           border-b`,
         className
       )}
     >
-      <div className="w-full max-w-[1280px] md:px-8 px-4">
+      <div className="w-full max-w-[1280px] md:px-8 px-4 max-h-16">
         {/* Desktop */}
         <div className="hidden md:flex items-center w-full">
           {getLogo()}
