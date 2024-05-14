@@ -109,12 +109,12 @@ export function Header({ className }: SidebarProps) {
     >
       <div className="h-10 w-full max-w-[1280px] md:px-8 px-4">
         {/* Desktop */}
-        <div className="h-10 flex items-center gap-x-8">
+        <div className="h-10 flex items-center gap-x-8 w-1/3">
           {getLogo()}
-          <div className="flex items-center gap-x-8 flex-1">
+          <div className="flex items-center gap-x-8 w-1/3">
             {getHeaderItems()}
           </div>
-          <div className="flex items-center w-2/3">
+          <div className="flex items-center w-1/3">
             {getAuthButtons()}
           </div>
         </div>
