@@ -114,11 +114,11 @@ export function Header({ className }: SidebarProps) {
           <div className="hidden md:flex items-center gap-x-8 w-1/3">
             {getHeaderItems()}
           </div>
-          <div className="px-3 absolute right-0 hidden md:flex items-center w-1/3">
+          <div className="px-3 absolute right-0 hidden md:flex items-center w-fit">
             {getAuthButtons()}
           </div>
             {/* Mobile */}
-          <div className="px-3 absolute right-0 md:hidden flex gap-3 items-center w-2/3">
+          <div className="px-3 absolute right-0 md:hidden flex gap-3 items-center w-fit">
             {getAuthButtons()}
             <Drawer direction="right">
               <DrawerTrigger asChild>
