@@ -37,8 +37,8 @@ export function Header({ className }: SidebarProps) {
   ]
 
   const getLogo = () => (
-    <div className="flex items-center gap-x-4 w-64">
-      <img src="/logo.svg" className="mr-1"/>
+    <div className="flex items-center gap-x-4 w-1/3">
+      <img src="/logo.svg" className="h-10"/>
         <Link
           href="/"
           className="pointer block w-fit"
