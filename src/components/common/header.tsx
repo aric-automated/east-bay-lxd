@@ -102,21 +102,21 @@ export function Header({ className }: SidebarProps) {
   return (
     <div
       className={cn(
-        `max-h-16 flex md:h-12 h-14 items-center justify-center w-full
+        `flex md:h-12 h-14 items-center justify-center w-full
           border-b`,
         className
       )}
     >
-      <div className="w-full max-w-[1280px] md:px-8 px-4 max-h-16">
+      <div className="h-10 w-full max-w-[1280px] md:px-8 px-4">
         {/* Desktop */}
-        <div className="hidden md:flex items-center w-full">
+        <div className="h-10 flex items-center gap-x-8">
           {getLogo()}
-        </div>
-        <div className="hidden md:flex flex items-center w-full">
           <div className="flex items-center gap-x-8 flex-1">
             {getHeaderItems()}
           </div>
+          <div className="flex items-center w-2/3">
             {getAuthButtons()}
+          </div>
         </div>
           {/* Mobile */}
         <div className="md:hidden flex gap-x-4 items-center">
