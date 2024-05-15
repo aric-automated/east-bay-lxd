@@ -34,16 +34,10 @@ export default function Home() {
         <div className="flex flex-wrap">
           <div className="w-5/6 sm:w-1/2 p-6">
             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Lorem ipsum dolor sit amet
+              Engaging experiences for modern learners
             </h3>
             <p className="text-gray-600 mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              <br />
-              <br />
-
-              Images from:
-
-              <a className="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+              At East Bay Learning Design, we specialize in creating e-learning experiences that captivate and inspire. Our expert team combines innovative design thinking with cutting-edge technology to deliver impactful learning solutions. Whether you're a small business aiming to scale up, or a large corporate organization in need of support, we're here to help you succeed.
             </p>
           </div>
           <div className="w-full sm:w-1/2 p-6">
@@ -327,15 +321,10 @@ export default function Home() {
           <div className="w-full sm:w-1/2 p-6 mt-6">
             <div className="align-middle">
               <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Lorem ipsum dolor sit amet
+                Simplified learning with mobile first deployment
               </h3>
               <p className="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                <br />
-                <br />
-                Images from:
-
-                <a className="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+                We empower learners to access content anytime, anywhere. Our simple, mobile-first methodology ensures seamless content deployment and an optimized learning experience. With our e-learning technology, you can deliver training that aligns with the on-the-go workday of today's learners, maximizing engagement and knowledge retention.
               </p>
             </div>
           </div>
