@@ -37,7 +37,7 @@ export default function Home() {
               Engaging experiences for modern learners
             </h3>
             <p className="text-gray-600 mb-8">
-              At East Bay Learning Design, we specialize in creating e-learning experiences that captivate and inspire. Our expert team combines innovative design thinking with cutting-edge technology to deliver impactful learning solutions. Whether you&apos;'re a small business aiming to scale up, or a large corporate organization in need of support, we&apos;'re here to help you succeed.
+              At East Bay Learning Design, we specialize in creating e-learning experiences that captivate and inspire. Our expert team combines innovative design thinking with cutting-edge technology to deliver impactful learning solutions. Whether you&apos;re a small business aiming to scale up, or a large corporate organization in need of support, we&apos;re here to help you succeed.
             </p>
           </div>
           <div className="w-full sm:w-1/2 p-6">
@@ -324,7 +324,7 @@ export default function Home() {
                 Simplified learning with mobile first deployment
               </h3>
               <p className="text-gray-600 mb-8">
-                We empower learners to access content anytime, anywhere. Our simple, mobile-first methodology ensures seamless content deployment and an optimized learning experience. With our e-learning technology, you can deliver training that aligns with the on-the-go workday of today&apos;'s learners, maximizing engagement and knowledge retention.
+                We empower learners to access content anytime, anywhere. Our simple, mobile-first methodology ensures seamless content deployment and an optimized learning experience. With our e-learning technology, you can deliver training that aligns with the on-the-go workday of today&apos;s learners, maximizing engagement and knowledge retention.
               </p>
             </div>
           </div>
