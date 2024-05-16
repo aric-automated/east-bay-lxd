@@ -33,20 +33,20 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap">
           <div className="w-full sm:w-1/2 p-6">
+            <Image className="w-full sm:h-64 mx-auto object-right"
+              width={237}
+              height={275}
+              alt="Image of a stylized 1"
+              src="/1.png"
+            />
+          </div>
+          <div className="w-full sm:w-1/2 p-6">
             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
               Engaging experiences for modern learners
             </h3>
             <p className="text-gray-600 mb-8">
               At East Bay Learning Design, we specialize in creating e-learning experiences that captivate and inspire. Our expert team combines innovative design thinking with cutting-edge technology to deliver impactful learning solutions. Whether you&apos;re a small business aiming to scale up, or a large corporate organization in need of support, we&apos;re here to help you succeed.
             </p>
-          </div>
-          <div className="w-full sm:w-1/2 p-6">
-            <Image className="w-full sm:h-64 mx-auto"
-              width={237}
-              height={275}
-              alt="Image of a stylized 1"
-              src="/1.png"
-            />
           </div>
         </div>
         <div className="flex flex-wrap flex-col-reverse sm:flex-row">
