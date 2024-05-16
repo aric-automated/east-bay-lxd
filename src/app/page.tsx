@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap">
           <div className="w-full sm:w-1/2 p-6">
-            <Image className="object-right"
+            <img className="object-none object-right"
               width={79}
               height={92}
               alt="Image of a stylized 1"
