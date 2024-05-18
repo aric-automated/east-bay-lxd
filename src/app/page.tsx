@@ -47,24 +47,26 @@ export default function Home() {
             </p>
           </div>
         </div>
+
         <div className="flex flex-wrap justify-center bg-green-100">
-          <div className="px-6 py-12 mt-6 flex justify-end bg-slate-100">
-            <img className="object-right"
-                width={79}
-                height={92}
-                alt="Image of a stylized 2"
-                src="/2.png"
-              />
+          <div className="px-6 py-12 flex justify-end bg-slate-100">
+            <img className="w-[79px] h-[92px] object-contain"
+              width={79}
+              height={92}
+              alt="Image of a stylized 2"
+              src="/2.png"
+            />
           </div>
-          <div className="w-full p-6 mt-6">
-              <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Simplified learning with mobile first deployment
-              </h3>
-              <p className="text-gray-600 mb-8">
-                We empower learners to access content anytime, anywhere. Our simple, mobile-first methodology ensures seamless content deployment and an optimized learning experience. With our e-learning technology, you can deliver training that aligns with the on-the-go workday of today&apos;s learners, maximizing engagement and knowledge retention.
-              </p>
+          <div className="w-full sm:w-2/3 p-6">
+            <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
+              Simplified learning with mobile first deployment
+            </h3>
+            <p className="text-gray-600 mb-8">
+              We empower learners to access content anytime, anywhere. Our simple, mobile-first methodology ensures seamless content deployment and an optimized learning experience. With our e-learning technology, you can deliver training that aligns with the on-the-go workday of today&apos;s learners, maximizing engagement and knowledge retention.
+            </p>
           </div>
         </div>
+
       </div>
     </section>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
