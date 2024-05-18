@@ -31,12 +31,12 @@ export default function Home() {
         <div className="w-full mb-4"></div>
         <div className="flex flex-wrap justify-center">
           <div className="pr-6 py-12 flex justify-end">
-            <img className="w-[79px] h-[92px] object-contain"
-              width={79}
-              height={92}
-              alt="Image of a stylized 1"
-              src="/1.png"
-            />
+              <img className="w-[79px] h-[92px] object-contain"
+                width={79}
+                height={92}
+                alt="Image of a stylized 1"
+                src="/1.png"
+              />
           </div>
           <div className="w-full sm:w-2/3 p-6">
             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
@@ -107,60 +107,6 @@ export default function Home() {
 
       </div>
     </section>
-      <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
-        <div className="flex flex-col gap-12 items-center">
-          <Typography className="max-w-2xl" variant="h1">
-            Quick solutions, less stress
-          </Typography>
-          <div className="flex md:flex-row flex-col gap-12">
-            <Feature
-              icon={<Timer size={24} />}
-              headline="Fix emergencies fast"
-              description="Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks"
-            />
-            <Feature
-              icon={<ArrowUpDown size={24} />}
-              headline="Universally compatible"
-              description="Works with PagerDuty, Jira, or custom Slack alerts—Pandem integrates with any system"
-            />
-            <Feature
-              icon={<Workflow size={24} />}
-              headline="Secure for your org"
-              description="We keep your data safe by taking top security measures."
-            />
-          </div>
-        </div>
-        <div className="flex flex-col gap-6 max-w-2xl items-center">
-          <Typography className="max-w-2xl" variant="h1">
-            Instant setup, no custom code
-          </Typography>
-          <Typography className="max-w-2xl" variant="p">
-            Quickly link new on-call tickets to similar past
-            incidents and their solutions. All directly in
-            Slack the moment an incident happens.
-          </Typography>
-          <Image
-            width={1024}
-            height={632}
-            alt="Pandem.dev hero image"
-            src="/hero1.png"
-          />
-        </div>
-        <div className="flex flex-col gap-6 items-center">
-          <Typography className="max-w-2xl" variant="h1">
-            Get in touch
-          </Typography>
-          <div>Book a demo, or hop on a call</div>
-          <Link
-            href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
-            target="_blank"
-          >
-            <Button size="tiny" variant="ghost">
-              {`Book now`}
-            </Button>
-          </Link>
-        </div>
-      </div>
     </div>
   )
 }
