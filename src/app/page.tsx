@@ -31,8 +31,8 @@ export default function Home() {
         <div className="w-full mb-4">
           <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div className="flex flex-wrap justify-center">
-          <div className="w-full sm:w-1/2 p-6 flex justify-end">
+        <div className="flex flex-wrap justify-center bg-green-100">
+          <div className="px-6 py-12 flex justify-end bg-slate-100">
             <img className="w-[79px] h-[92px] object-contain"
               width={79}
               height={92}
