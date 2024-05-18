@@ -28,9 +28,7 @@ export default function Home() {
         <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Why East Bay Learning Design?
         </h2>
-        <div className="w-full mb-4">
-          <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
+        <div className="w-full mb-4"></div>
         <div className="flex flex-wrap justify-center bg-green-100">
           <div className="px-6 py-12 flex justify-end bg-slate-100">
             <img className="w-[79px] h-[92px] object-contain"
@@ -40,7 +38,7 @@ export default function Home() {
               src="/1.png"
             />
           </div>
-          <div className="w-full p-6">
+          <div className="w-full sm:w-1/2 p-6">
             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
               Engaging experiences for modern learners
             </h3>
