@@ -30,7 +30,7 @@ export default function Home() {
         </h2>
         <div className="w-full mb-4"></div>
         <div className="flex flex-wrap justify-center">
-          <div className="px-6 py-12 flex justify-end">
+          <div className="pr-6 py-12 flex justify-end">
             <img className="w-[79px] h-[92px] object-contain"
               width={79}
               height={92}
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-wrap justify-center">
-          <div className="px-6 py-12 flex justify-end">
+          <div className="pr-6 pl-6 flex justify-end">
             <img className="w-[79px] h-[92px] object-contain"
               width={79}
               height={92}
