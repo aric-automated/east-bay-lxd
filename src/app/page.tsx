@@ -40,7 +40,7 @@ export default function Home() {
                 />
             </div>
             <div className="w-full sm:w-2/3 p-6">
-              <h3 className="text-left sm:text-center text-3xl text-gray-800 font-bold leading-none mb-3">
+              <h3 className="sm:text-left text-center text-3xl text-gray-800 font-bold leading-none mb-3">
                 Engaging experiences for modern learners
               </h3>
               <p className="text-justify text-gray-600 mb-8">
@@ -59,7 +59,7 @@ export default function Home() {
               />
             </div>
             <div className="w-full sm:w-2/3 p-6">
-              <h3 className="text-left sm:text-center text-3xl text-gray-800 font-bold leading-none mb-3">
+              <h3 className="sm:text-left text-center text-3xl text-gray-800 font-bold leading-none mb-3">
                 Simplified learning with mobile first deployment
               </h3>
               <p className="text-justify text-gray-600 mb-8">
@@ -78,7 +78,7 @@ export default function Home() {
               />
             </div>
             <div className="w-full sm:w-2/3 p-6">
-              <h3 className="text-left sm:text-center text-3xl text-gray-800 font-bold leading-none mb-3">
+              <h3 className="sm:text-left text-center text-3xl text-gray-800 font-bold leading-none mb-3">
                 Iterative development, lasting impact
               </h3>
               <p className="text-justify text-gray-600 mb-8">
@@ -97,7 +97,7 @@ export default function Home() {
               />
             </div>
             <div className="w-full sm:w-2/3 p-6">
-              <h3 className="text-left sm:text-center text-3xl text-gray-800 font-bold leading-none mb-3">
+              <h3 className="sm:text-left text-center text-3xl text-gray-800 font-bold leading-none mb-3">
                 Tailored solutions for your objectives
               </h3>
               <p className="text-justify text-gray-600 mb-8">
